@@ -1,0 +1,23 @@
+{
+  "name": "ivan-chkv/yii2-jquery-form-styler",
+  "description": "Yii 2 jQuery Form Styler Asset",
+  "keywords": ["yii2", "jquery", "form", "styler"],
+  "homepage": "http://dimox.name/jquery-form-styler/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "ivan.chkv@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "bower-asset/jquery.form-styler": "1.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\jquery\\formstyler\\": ""
+    }
+  }
+}

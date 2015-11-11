@@ -1,6 +1,6 @@
 <?php
 
-namespace tests\jquery\magnificpopup;
+namespace yii\jquery\formstyler\tests;
 
 use yii\helpers\FileHelper;
 use yii\jquery\formstyler\FormStylerAsset;
@@ -10,7 +10,7 @@ use Yii;
 class FormStylerAssetTest extends TestCase
 {
 
-    public $appConfig = '@tests/jquery/formstyler/config.php';
+    public $appConfig = '@yii/jquery/formstyler/tests/config.php';
 
     /**
      * @inheritdoc

@@ -28,6 +28,8 @@ class FormStylerAssetTest extends TestCase
     {
         $bundle = Yii::$app->getAssetManager()->getBundle(FormStylerAsset::className());
         $this->assertInstanceOf('yii\jquery\formstyler\FormStylerAsset', $bundle);
+        $this->assertArrayHasKey(0, $bundle->depends);
+        $this->assertEquals('yii\web\JqueryAsset', $bundle->depends[0]);
         $this->assertArrayHasKey(0, $bundle->js);
         $this->assertFileExists($bundle->basePath . DIRECTORY_SEPARATOR . $bundle->js[0]);
         $this->assertArrayHasKey(0, $bundle->css);

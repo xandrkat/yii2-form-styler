@@ -10,6 +10,9 @@ use Yii;
 class FormStylerAssetTest extends TestCase
 {
 
+    /**
+     * @inheritdoc
+     */
     public $appConfig = '@yii/jquery/formstyler/tests/config.php';
 
     /**

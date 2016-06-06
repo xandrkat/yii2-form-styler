@@ -2,4 +2,4 @@
 
 Yii 2 jQuery Form Styler Asset
 
-http://dimox.name/jquery-form-styler/
+http://dimox.name/jquery-form-styler

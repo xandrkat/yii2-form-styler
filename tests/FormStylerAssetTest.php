@@ -4,16 +4,11 @@ namespace yii\jquery\formstyler\tests;
 
 use yii\helpers\FileHelper;
 use yii\jquery\formstyler\FormStylerAsset;
-use yii\codeception\TestCase;
+use yii\phpunit\TestCase;
 use Yii;
 
 class FormStylerAssetTest extends TestCase
 {
-
-    /**
-     * @inheritdoc
-     */
-    public $appConfig = '@yii/jquery/formstyler/tests/config.php';
 
     /**
      * @inheritdoc

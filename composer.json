@@ -1,7 +1,13 @@
 {
   "name": "ivan-chkv/yii2-jquery-form-styler",
   "description": "Yii 2 jQuery Form Styler Asset",
-  "keywords": ["yii2", "jquery", "form", "styler", "dimox"],
+  "keywords": [
+    "yii2",
+    "jquery",
+    "form",
+    "styler",
+    "dimox"
+  ],
   "homepage": "http://dimox.name/jquery-form-styler",
   "type": "yii2-extension",
   "license": "MIT",
